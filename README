@@ -1,0 +1,15 @@
+AUTHOR: AlSnake
+BRIEF: ENFORCE PROGRAMMING LANGUAGE
+
+Packages: git g++ cmake make
+
+Get Source:
+	git clone --recursive https://github.com/AlSnake/enforce
+
+Build Source:
+	mkdir build && cd build
+	cmake .. && make
+
+License:	
+	Licensed Under GNU General Public License v3.0
+	Full License: https://github.com/AlSnake/enforce/blob/master/COPYING
